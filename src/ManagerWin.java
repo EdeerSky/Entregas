@@ -21,6 +21,17 @@ public class ManagerWin extends JDialog {
     private JFormattedTextField formattedTextField1;
     private JComboBox tipoComboBox;
     private JComboBox veículoComboBox;
+    private JComboBox motoristaComboBox;
+    private JTextField clienteTextField;
+    private JFormattedTextField saídaFormattedTextField;
+    private JTextField assigncódigoTextField;
+    private JFormattedTextField formattedTextField2;
+    private JButton limparButton1;
+    private JButton agendarButton;
+    private JButton confirmarButton;
+    private JTextField cancelcódigoTextField;
+    private JButton verificarButton;
+    private JTextField verifycódigoTextField;
 
     public ManagerWin(){
         setContentPane(panel1);
