@@ -8,6 +8,19 @@ public class ManagerWin extends JDialog {
     private JPanel panel1;
     private JTabbedPane tabbedPane1;
     private JButton sairButton;
+    private JTextField nomeTextField;
+    private JButton limparButton;
+    private JButton buscarButton;
+    private JButton cadastrarButton;
+    private JRadioButton masculinoRadioButton;
+    private JRadioButton femininoRadioButton;
+    private JFormattedTextField CPFFormattedTextField;
+    private JFormattedTextField RGFormattedTextField;
+    private JTextField UIDTextField;
+    private JTextField endereçoTextField;
+    private JFormattedTextField formattedTextField1;
+    private JComboBox tipoComboBox;
+    private JComboBox veículoComboBox;
 
     public ManagerWin(){
         setContentPane(panel1);
