@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="Trans:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/Trans_jar</output-path>
-    <root id="archive" name="Trans.jar">
-      <element id="module-output" name="Trans" />
-    </root>
-  </artifact>
-</component>
