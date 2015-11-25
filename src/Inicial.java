@@ -73,6 +73,12 @@ public class Inicial extends JDialog {
             janela.pack();
             janela.setVisible(true);
         }
+        else {
+            String workerID = IDTextField.getText();
+            WorkerWin janela = new WorkerWin(workerID);
+            janela.pack();
+            janela.setVisible(true);
+        }
 //        dispose();
     }
 
